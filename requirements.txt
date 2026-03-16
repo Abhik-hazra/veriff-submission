@@ -1,0 +1,21 @@
+# requirements.txt — veriff_submission.py
+# Python 3.10+ recommended
+
+# YOLO model loading and inference
+ultralytics>=8.3.0
+
+# Video reading, frame annotation, saving images
+opencv-python>=4.10.0
+
+# Evaluation: loading CSVs and computing accuracy
+pandas>=2.0.0
+
+# Hardware detection (MPS on Apple Silicon, or CPU fallback)
+torch>=2.6.0
+
+# ──────────────────────────────────────────────────────────
+# PyTorch install note:
+#   The line above works for CPU-only installs.
+#   For GPU support (CUDA/ROCm/MPS), use the official tool:
+#   https://pytorch.org/get-started/locally/
+# ──────────────────────────────────────────────────────────
