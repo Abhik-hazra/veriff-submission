@@ -1,14 +1,20 @@
-# Veriff — Person Detection Challenge
+```markdown
+# Veriff Person Detection Submission
 
-Classifies each video as `Single Person` or `Multiple People` using YOLOv10.
+This project classifies each input video as either `Single Person` or `Multiple People` using YOLO-based person detection.
 
-## Folder Structure
+## Repository structure
 
-submission/
-├── veriff_submission.py  # main script
-├── requirements.txt      # dependencies
-├── videos/               # place .mp4 files here
-└── output/               # results written here after run
+```text
+.
+├── veriff_submission.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── videos/
+│   └── .gitkeep
+└── output/
+    └── .gitkeep
 
 ## Setup
 
