@@ -1,4 +1,4 @@
-```markdown
+
 # Veriff Person Detection Submission
 
 This project classifies each input video as either `Single Person` or `Multiple People` using YOLO-based person detection.
@@ -16,7 +16,7 @@ text
 │   └── .gitkeep
 └── output/
     └── .gitkeep
-
+```
 ## Setup
 
     pip install -r requirements.txt
