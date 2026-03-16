@@ -5,7 +5,8 @@ This project classifies each input video as either `Single Person` or `Multiple 
 
 ## Repository structure
 
-```text
+```
+text
 .
 ├── veriff_submission.py
 ├── requirements.txt
